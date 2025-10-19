@@ -5,8 +5,6 @@ print("Conditions :\n"
       "4. Use space to separate the letters and '/' to separate words in Morse code.\n"
       "5. Only spaces to separate words in text file.\n")
 
-a = input("Enter text or Morse code: ").strip()
-
 lt1 = [' ','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
        '0','1','2','3','4','5','6','7','8','9','.','?',"'",'!','/','(',')','&',':',';','=','+','-','_','"','$','@']
 
@@ -52,4 +50,3 @@ while True:
         print(' '.join(olt))
     else:
         print("Invalid input! Please enter valid text or Morse code.")
-        
