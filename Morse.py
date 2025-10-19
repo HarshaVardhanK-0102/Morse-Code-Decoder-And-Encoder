@@ -49,4 +49,4 @@ while True:
                     olt.append('?')
         print(' '.join(olt))
     else:
-        print("Invalid input! Please enter valid text or Morse code.")
+        print("Invalid input! PLEASE enter valid text or Morse code.")
